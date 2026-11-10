@@ -22,6 +22,7 @@ bytes.workspace = true
 tokio = { workspace = true, features = ["io-std"] }
 libc = "0.2"
 ring = "0.17"
+flate2 = "1"
 
 [features]
 default = ["djs-hooks"]
