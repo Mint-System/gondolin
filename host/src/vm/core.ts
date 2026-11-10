@@ -608,6 +608,7 @@ export class VM {
             image: remoteResolution.image,
             qemuPath: sandboxOptions.qemuPath,
             krunRunnerPath: sandboxOptions.krunRunnerPath,
+            firecrackerPath: sandboxOptions.firecrackerPath,
           }
         : undefined,
     };
